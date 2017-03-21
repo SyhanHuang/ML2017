@@ -66,7 +66,7 @@ x_data = np.asarray(x_data)
 y_data = np.asarray(y_data)
 testData = np.asarray(testData)
 np.random.seed(0)
-w = np.random.rand(163)/100
+w = np.random.rand(163)/1000
 w_lr = np.zeros(163)
 w_grad = np.zeros(163)
 # for regularization
@@ -80,7 +80,7 @@ beta2 = 0.999
 epsilon = 1e-8
 # learning rate
 lr = 0.00001
-iteration = 1000
+iteration = 1500
 # Store initial values for plotting.
 w_history = [w]
 l_history = []
